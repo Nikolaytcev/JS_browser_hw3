@@ -1,0 +1,28 @@
+
+.board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: auto;
+}
+
+.cell {
+    background-color: lightblue;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: solid 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.goblin-deactivate {
+    display: none;
+}
+
+.goblin-activate {
+    display: block;
+}
